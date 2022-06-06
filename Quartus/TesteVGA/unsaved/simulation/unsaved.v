@@ -213,25 +213,25 @@ module unsaved (
 		.reset_req_in15 (1'b0)                                // (terminated)
 	);
 
-initial begin
-	reset_reset_n = 0;
-	clk_clk = 0;
-	arquivo = $fopen("imageoutput.txt", "w");  
-end
-
-always begin
-	#`meioperiodo clk_clk <= ~clk_clk;
-end
-
-always @ (posedge video_vga_controller_conduits_CLK) begin
-	if ($time > 200 && video_vga_controller_conduits_VS == 0) begin
-		$fclose(arquivo);
+	initial begin
+		reset_reset_n = 0;
+		clk_clk = 0;
+		arquivo = $fopen("imageoutput.txt", "w");  
 	end
-	else begin
-		if($time > 380 && video_vga_controller_conduits_BLANK != 0) begin
-			$fwrite(arquivo,"00000000%b%b%b\n", video_vga_controller_conduits_R, video_vga_controller_conduits_G, video_vga_controller_conduits_B);
+
+	always begin
+		#`meioperiodo clk_clk <= ~clk_clk;
+	end
+
+	always @ (posedge video_vga_controller_conduits_CLK) begin
+		if ($time > 200 && video_vga_controller_conduits_VS == 0) begin
+			$fclose(arquivo);
+		end
+		else begin
+			if($time > 380 && video_vga_controller_conduits_BLANK != 0) begin
+				$fwrite(arquivo,"00000000%b%b%b\n", video_vga_controller_conduits_R, video_vga_controller_conduits_G, video_vga_controller_conduits_B);
+			end
 		end
 	end
-end
 
 endmodule
