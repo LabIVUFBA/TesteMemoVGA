@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/verbosity_pkg.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_common_sv_packages"
+   systemVerilogPackageName="avalon_vip_verbosity_pkg" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v"
+   type="VERILOG"
+   library="reset_from_locked" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/altera_up_altpll.v"
+   type="VERILOG"
+   library="video_pll" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/altera_reset_controller.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/altera_reset_controller.sdc"
+   type="SDC"
+   library="rst_controller" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/altera_up_avalon_video_vga_timing.v"
+   type="VERILOG"
+   library="video_vga_controller_0" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/unsaved_video_vga_controller_0.v"
+   type="VERILOG"
+   library="video_vga_controller_0" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/unsaved_video_test_pattern_0.v"
+   type="VERILOG"
+   library="video_test_pattern_0" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/unsaved_video_rgb_resampler_0.v"
+   type="VERILOG"
+   library="video_rgb_resampler_0" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/unsaved_video_pll_0.v"
+   type="VERILOG"
+   library="video_pll_0" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/altera_conduit_bfm.sv"
+   type="SYSTEM_VERILOG"
+   library="unsaved_inst_video_vga_controller_conduits_bfm" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/altera_avalon_reset_source.sv"
+   type="SYSTEM_VERILOG"
+   library="unsaved_inst_reset_bfm" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/altera_avalon_clock_source.sv"
+   type="SYSTEM_VERILOG"
+   library="unsaved_inst_clk_bfm" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/submodules/unsaved.v"
+   type="VERILOG"
+   library="unsaved_inst" />
+ <file
+   path="unsaved/testbench/unsaved_tb/simulation/unsaved_tb.v"
+   type="VERILOG" />
+ <topLevel name="unsaved_tb" />
+ <deviceFamily name="cycloneive" />
+</simPackage>

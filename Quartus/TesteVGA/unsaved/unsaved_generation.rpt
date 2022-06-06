@@ -1,0 +1,114 @@
+Info: Starting: Create simulation model
+Info: qsys-generate E:\LABIV\TesteMemoVGA\Quartus\TesteVGA\unsaved.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=E:\LABIV\TesteMemoVGA\Quartus\TesteVGA\unsaved\simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading TesteVGA/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding video_pll_0 [altera_up_avalon_video_pll 18.0]
+Progress: Parameterizing module video_pll_0
+Progress: Adding video_rgb_resampler_0 [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module video_rgb_resampler_0
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.0]
+Progress: Parameterizing module video_vga_controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
+Info: unsaved: Generating unsaved "unsaved" for SIM_VERILOG
+Info: video_pll_0: "unsaved" instantiated altera_up_avalon_video_pll "video_pll_0"
+Info: video_rgb_resampler_0: Starting Generation of Video RGB Resampler
+Info: video_rgb_resampler_0: "unsaved" instantiated altera_up_avalon_video_rgb_resampler "video_rgb_resampler_0"
+Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
+Info: video_test_pattern_0: "unsaved" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
+Info: video_vga_controller_0: Starting Generation of VGA Controller
+Info: video_vga_controller_0: "unsaved" instantiated altera_up_avalon_video_vga_controller "video_vga_controller_0"
+Info: rst_controller: "unsaved" instantiated altera_reset_controller "rst_controller"
+Info: video_pll: "video_pll_0" instantiated altera_up_altpll "video_pll"
+Info: reset_from_locked: "video_pll_0" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: unsaved: Done "unsaved" with 8 modules, 11 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=E:\LABIV\TesteMemoVGA\Quartus\TesteVGA\unsaved\unsaved.spd --output-directory=E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=E:\LABIV\TesteMemoVGA\Quartus\TesteVGA\unsaved\unsaved.spd --output-directory=E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	7 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\LABIV\TesteMemoVGA\Quartus\TesteVGA\unsaved.qsys --block-symbol-file --output-directory=E:\LABIV\TesteMemoVGA\Quartus\TesteVGA\unsaved --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading TesteVGA/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding video_pll_0 [altera_up_avalon_video_pll 18.0]
+Progress: Parameterizing module video_pll_0
+Progress: Adding video_rgb_resampler_0 [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module video_rgb_resampler_0
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.0]
+Progress: Parameterizing module video_vga_controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\LABIV\TesteMemoVGA\Quartus\TesteVGA\unsaved.qsys --synthesis=VERILOG --output-directory=E:\LABIV\TesteMemoVGA\Quartus\TesteVGA\unsaved\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading TesteVGA/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding video_pll_0 [altera_up_avalon_video_pll 18.0]
+Progress: Parameterizing module video_pll_0
+Progress: Adding video_rgb_resampler_0 [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module video_rgb_resampler_0
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.0]
+Progress: Parameterizing module video_vga_controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
+Info: unsaved: Generating unsaved "unsaved" for QUARTUS_SYNTH
+Info: video_pll_0: "unsaved" instantiated altera_up_avalon_video_pll "video_pll_0"
+Info: video_rgb_resampler_0: Starting Generation of Video RGB Resampler
+Info: video_rgb_resampler_0: "unsaved" instantiated altera_up_avalon_video_rgb_resampler "video_rgb_resampler_0"
+Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
+Info: video_test_pattern_0: "unsaved" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
+Info: video_vga_controller_0: Starting Generation of VGA Controller
+Info: video_vga_controller_0: "unsaved" instantiated altera_up_avalon_video_vga_controller "video_vga_controller_0"
+Info: rst_controller: "unsaved" instantiated altera_reset_controller "rst_controller"
+Info: video_pll: "video_pll_0" instantiated altera_up_altpll "video_pll"
+Info: reset_from_locked: "video_pll_0" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: unsaved: Done "unsaved" with 8 modules, 11 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

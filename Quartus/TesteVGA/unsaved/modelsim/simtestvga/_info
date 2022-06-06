@@ -1,0 +1,241 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Programas/IntelFPGA
+valtera_reset_controller
+!s110 1654464862
+!i10b 1
+!s100 AbYPDDXoUZYQzY_kQ2LCk2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVi1EE=L]GPH6OSh3X20GV2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/modelsim
+Z3 w1654461556
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_controller.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_controller.v
+!i122 21
+L0 42 278
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1654464862.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_controller.v|
+!i113 1
+Z6 o-work simtestvga
+Z7 tCvgOpt 0
+valtera_reset_synchronizer
+Z8 !s110 1654464863
+!i10b 1
+!s100 BQ8==cV75_ke3L4GKGWGO3
+R0
+I9`288[IC]B;h5^TQJW_nJ2
+R1
+R2
+R3
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_synchronizer.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_synchronizer.v
+!i122 22
+L0 24 63
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_synchronizer.v|
+!i113 1
+R6
+R7
+valtera_up_altpll
+R8
+!i10b 1
+!s100 gA9^WMoZ<m>YaF1Vb;cei2
+R0
+INKb7[n5=0k=5n2N?Ei@6T3
+R1
+R2
+R3
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_altpll.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_altpll.v
+!i122 23
+L0 29 179
+R4
+r1
+!s85 0
+31
+Z9 !s108 1654464863.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_altpll.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_altpll.v|
+!i113 1
+R6
+R7
+valtera_up_avalon_reset_from_locked_signal
+R8
+!i10b 1
+!s100 l7cj`WQfb[k<`bj?eTPi03
+R0
+I`1]V2[IAbzDkWfM6>>fb=1
+R1
+R2
+R3
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v
+!i122 24
+L0 28 65
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v|
+!i113 1
+R6
+R7
+valtera_up_avalon_video_vga_timing
+R8
+!i10b 1
+!s100 2lAbcALc[PAg8P6UJ;XMC0
+R0
+IY`KUC`12i=BfnZ?=8NP=b2
+R1
+R2
+R3
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_video_vga_timing.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_video_vga_timing.v
+!i122 25
+L0 28 293
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_video_vga_timing.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_video_vga_timing.v|
+!i113 1
+R6
+R7
+vunsaved
+!s110 1654476018
+!i10b 1
+!s100 loF]4<eLh=jWNDQ0DQVLB2
+R0
+ISGm11jUZEM5j23QUKj]4`0
+R1
+R2
+w1654475596
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v
+!i122 40
+L0 9 229
+R4
+r1
+!s85 0
+31
+!s108 1654476018.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v|
+!i113 1
+R6
+R7
+vunsaved_video_pll_0
+R8
+!i10b 1
+!s100 ZUFac`koJgJ4`^>U6zcL`2
+R0
+IYCVHg?:?Q1Me7:mh]Io961
+R1
+R2
+R3
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_pll_0.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_pll_0.v
+!i122 26
+L0 9 33
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_pll_0.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_pll_0.v|
+!i113 1
+R6
+R7
+vunsaved_video_rgb_resampler_0
+R8
+!i10b 1
+!s100 [i0_ATA?S;z<CmWlXaHbc1
+R0
+I5^;9f=]YQ16cMd3VHgI@;1
+R1
+R2
+R3
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_rgb_resampler_0.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_rgb_resampler_0.v
+!i122 27
+L0 28 170
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_rgb_resampler_0.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_rgb_resampler_0.v|
+!i113 1
+R6
+R7
+vunsaved_video_test_pattern_0
+R8
+!i10b 1
+!s100 jleX2a6KR]8CO?CenlNU43
+R0
+IfZJKeg0V;2<]IRcCbL3Fj3
+R1
+R2
+R3
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_test_pattern_0.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_test_pattern_0.v
+!i122 28
+L0 28 262
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_test_pattern_0.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_test_pattern_0.v|
+!i113 1
+R6
+R7
+vunsaved_video_vga_controller_0
+!s110 1654464864
+!i10b 1
+!s100 e6LGXmSXLCmc=]@Rm:ATg3
+R0
+I^<kY2[LfD26P@@KPfUkF31
+R1
+R2
+R3
+8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_vga_controller_0.v
+FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_vga_controller_0.v
+!i122 29
+L0 28 259
+R4
+r1
+!s85 0
+31
+!s108 1654464864.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_vga_controller_0.v|
+!s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_vga_controller_0.v|
+!i113 1
+R6
+R7
