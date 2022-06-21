@@ -11,7 +11,7 @@ add wave -noupdate -label B /unsaved/video_vga_controller_conduits_B
 add wave -noupdate -label BLANK /unsaved/video_vga_controller_conduits_BLANK
 add wave -noupdate -label SYNC /unsaved/video_vga_controller_conduits_SYNC
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {18954277 ns} 0}
+WaveRestoreCursors {{Cursor 1} {17076545354 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -27,4 +27,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ns} {21678711 ns}
+WaveRestoreZoom {0 ps} {21406398060 ps}

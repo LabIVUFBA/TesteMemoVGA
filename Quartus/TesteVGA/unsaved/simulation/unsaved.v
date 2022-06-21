@@ -16,9 +16,10 @@ module unsaved (
 		input  wire        video_vga_controller_conduits_SYNC,  //                              .SYNC
 		input  wire [7:0]  video_vga_controller_conduits_R,     //                              .R
 		input  wire [7:0]  video_vga_controller_conduits_G,     //                              .G
-		input  wire [7:0]  video_vga_controller_conduits_B      //                              .B		  		
+		input  wire [7:0]  video_vga_controller_conduits_B      //                              .B
 	);
 
+	reg	[15:0]   rgb;
 	integer      arquivo;
 	wire         video_test_pattern_0_avalon_generator_source_valid;         // video_test_pattern_0:valid -> video_rgb_resampler_0:stream_in_valid
 	wire  [23:0] video_test_pattern_0_avalon_generator_source_data;          // video_test_pattern_0:data -> video_rgb_resampler_0:stream_in_data
@@ -228,8 +229,10 @@ module unsaved (
 			$fclose(arquivo);
 		end
 		else begin
+			rgb = ((video_vga_controller_conduits_R*299)/1000) + ((video_vga_controller_conduits_G*587)/1000) + ((video_vga_controller_conduits_B*114)/1000);
 			if($time > 380 && video_vga_controller_conduits_BLANK != 0) begin
-				$fwrite(arquivo,"00000000%b%b%b\n", video_vga_controller_conduits_R, video_vga_controller_conduits_G, video_vga_controller_conduits_B);
+				//$fwrite(arquivo,"00000000%b%b%b\n", video_vga_controller_conduits_R, video_vga_controller_conduits_G, video_vga_controller_conduits_B); //RGB
+				$fwrite(arquivo,"%b\n", rgb[7:0]); //Grayscale
 			end
 		end
 	end

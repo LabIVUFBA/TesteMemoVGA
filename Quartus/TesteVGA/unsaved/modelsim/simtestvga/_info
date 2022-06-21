@@ -125,23 +125,23 @@ R9
 R6
 R7
 vunsaved
-!s110 1654476018
+!s110 1655842556
 !i10b 1
-!s100 loF]4<eLh=jWNDQ0DQVLB2
+!s100 <[Q7daGGb:j@ORb7dgTz72
 R0
-ISGm11jUZEM5j23QUKj]4`0
+IbzQNJ^DEWV17Eg`]m?ZP41
 R1
 R2
-w1654475596
+w1655842540
 8E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v
 FE:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v
-!i122 40
-L0 9 229
+!i122 47
+L0 9 232
 R4
 r1
 !s85 0
 31
-!s108 1654476018.000000
+!s108 1655842556.000000
 !s107 E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v|
 !s90 -reportprogress|300|-work|simtestvga|-stats=none|E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v|
 !i113 1
