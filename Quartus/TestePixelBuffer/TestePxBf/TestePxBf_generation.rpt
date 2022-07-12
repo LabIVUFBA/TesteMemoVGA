@@ -1,0 +1,194 @@
+Info: Starting: Create simulation model
+Info: qsys-generate E:\LABIV\TesteMemoVGA\Quartus\TestePixelBuffer\TestePxBf.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=E:\LABIV\TesteMemoVGA\Quartus\TestePixelBuffer\TestePxBf\simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading TestePixelBuffer/TestePxBf.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 20.1]
+Progress: Parameterizing module clk
+Progress: Adding dual_clock_buffer [altera_up_avalon_video_dual_clock_buffer 18.0]
+Progress: Parameterizing module dual_clock_buffer
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding nios [altera_nios2_gen2 20.1]
+Progress: Parameterizing module nios
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding pixel_buffer [altera_up_avalon_video_pixel_buffer_dma 18.0]
+Progress: Parameterizing module pixel_buffer
+Progress: Adding pll_vga [altera_up_avalon_video_pll 18.0]
+Progress: Parameterizing module pll_vga
+Progress: Adding rgb_resampler [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module rgb_resampler
+Progress: Adding sram [altera_external_memory_bfm 20.1]
+Info: altera_external_memory_bfm: Preferred Simulation Language is set to None.
+Progress: Parameterizing module sram
+Progress: Adding sram_controller [altera_up_avalon_sram 18.0]
+Progress: Parameterizing module sram_controller
+Progress: Adding timer_0 [altera_avalon_timer 20.1]
+Progress: Parameterizing module timer_0
+Progress: Adding vga_controller [altera_up_avalon_video_vga_controller 18.0]
+Progress: Parameterizing module vga_controller
+Progress: Adding video_scaler_0 [altera_up_avalon_video_scaler 18.0]
+Progress: Parameterizing module video_scaler_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: TestePxBf.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: TestePxBf.rgb_resampler: RGB Resampling: 16 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: TestePxBf.vga_controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Info: TestePxBf.video_scaler_0: Change in Resolution: 320 x 240 -> 160 x 120
+Info: TestePxBf: Generating TestePxBf "TestePxBf" for SIM_VERILOG
+Info: dual_clock_buffer: Starting Generation of the Dual Clock Buffer
+Info: dual_clock_buffer: "TestePxBf" instantiated altera_up_avalon_video_dual_clock_buffer "dual_clock_buffer"
+Info: jtag_uart: Starting RTL generation for module 'TestePxBf_jtag_uart'
+Info: jtag_uart:   Generation command is [exec D:/programas/intelfpga/quartus/bin64/perl/bin/perl.exe -I D:/programas/intelfpga/quartus/bin64/perl/lib -I D:/programas/intelfpga/quartus/sopc_builder/bin/europa -I D:/programas/intelfpga/quartus/sopc_builder/bin -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/common -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=TestePxBf_jtag_uart --dir=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0107_jtag_uart_gen/ --quartus_dir=D:/programas/intelfpga/quartus --verilog --config=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0107_jtag_uart_gen//TestePxBf_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0107_jtag_uart_gen/  ]
+Info: jtag_uart: Done RTL generation for module 'TestePxBf_jtag_uart'
+Info: jtag_uart: "TestePxBf" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: nios: "TestePxBf" instantiated altera_nios2_gen2 "nios"
+Info: onchip_memory: Starting RTL generation for module 'TestePxBf_onchip_memory'
+Info: onchip_memory:   Generation command is [exec D:/programas/intelfpga/quartus/bin64/perl/bin/perl.exe -I D:/programas/intelfpga/quartus/bin64/perl/lib -I D:/programas/intelfpga/quartus/sopc_builder/bin/europa -I D:/programas/intelfpga/quartus/sopc_builder/bin -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/common -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=TestePxBf_onchip_memory --dir=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0108_onchip_memory_gen/ --quartus_dir=D:/programas/intelfpga/quartus --verilog --config=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0108_onchip_memory_gen//TestePxBf_onchip_memory_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0108_onchip_memory_gen/  ]
+Info: onchip_memory: Done RTL generation for module 'TestePxBf_onchip_memory'
+Info: onchip_memory: "TestePxBf" instantiated altera_avalon_onchip_memory2 "onchip_memory"
+Info: pixel_buffer: Starting Generation of VGA Pixel Buffer
+Info: pixel_buffer: "TestePxBf" instantiated altera_up_avalon_video_pixel_buffer_dma "pixel_buffer"
+Info: pll_vga: "TestePxBf" instantiated altera_up_avalon_video_pll "pll_vga"
+Info: rgb_resampler: Starting Generation of Video RGB Resampler
+Info: rgb_resampler: "TestePxBf" instantiated altera_up_avalon_video_rgb_resampler "rgb_resampler"
+Warning: sram: get_parameter_value: Getting the value of INIT_FILE from generate2 callback may cause errors (as AFFECTS_GENERATION is false for this parameter)
+Info: sram: "TestePxBf" instantiated altera_external_memory_bfm "sram"
+Info: sram_controller: Starting Generation of the SRAM Controller
+Info: sram_controller: "TestePxBf" instantiated altera_up_avalon_sram "sram_controller"
+Info: timer_0: Starting RTL generation for module 'TestePxBf_timer_0'
+Info: timer_0:   Generation command is [exec D:/Programas/IntelFPGA/quartus/bin64//perl/bin/perl.exe -I D:/Programas/IntelFPGA/quartus/bin64//perl/lib -I D:/programas/intelfpga/quartus/sopc_builder/bin/europa -I D:/programas/intelfpga/quartus/sopc_builder/bin -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/common -I D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- D:/programas/intelfpga/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=TestePxBf_timer_0 --dir=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0113_timer_0_gen/ --quartus_dir=D:/programas/intelfpga/quartus --verilog --config=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0113_timer_0_gen//TestePxBf_timer_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0113_timer_0_gen/  ]
+Info: timer_0: Done RTL generation for module 'TestePxBf_timer_0'
+Info: timer_0: "TestePxBf" instantiated altera_avalon_timer "timer_0"
+Info: vga_controller: Starting Generation of VGA Controller
+Info: vga_controller: "TestePxBf" instantiated altera_up_avalon_video_vga_controller "vga_controller"
+Info: video_scaler_0: Starting Generation of Video Scaler
+Info: video_scaler_0: "TestePxBf" instantiated altera_up_avalon_video_scaler "video_scaler_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "TestePxBf" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "TestePxBf" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "TestePxBf" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'TestePxBf_nios_cpu'
+Info: cpu:   Generation command is [exec D:/Programas/IntelFPGA/quartus/bin64//perl/bin/perl.exe -I D:/Programas/IntelFPGA/quartus/bin64//perl/lib -I D:/programas/intelfpga/quartus/sopc_builder/bin/europa -I D:/programas/intelfpga/quartus/sopc_builder/bin -I D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/programas/intelfpga/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=TestePxBf_nios_cpu --dir=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0118_cpu_gen/ --quartus_bindir=D:/Programas/IntelFPGA/quartus/bin64/ --verilog --config=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0118_cpu_gen//TestePxBf_nios_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0118_cpu_gen/  ]
+Info: cpu: # 2022.07.11 13:04:51 (*) Starting Nios II generation
+Info: cpu: # 2022.07.11 13:04:51 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2022.07.11 13:04:51 (*)   Creating all objects for CPU
+Info: cpu: # 2022.07.11 13:04:52 (*)   Creating 'C:/Users/andre/AppData/Local/Temp/alt9184_5617409991526339417.dir/0118_cpu_gen//TestePxBf_nios_cpu_nios2_waves.do'
+Info: cpu: # 2022.07.11 13:04:52 (*)   Generating RTL from CPU objects
+Info: cpu: # 2022.07.11 13:04:52 (*)   Creating plain-text RTL
+Info: cpu: # 2022.07.11 13:04:52 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'TestePxBf_nios_cpu'
+Info: cpu: "nios" instantiated altera_nios2_gen2_unit "cpu"
+Info: video_pll: "pll_vga" instantiated altera_up_altpll "video_pll"
+Info: reset_from_locked: "pll_vga" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: pixel_buffer_avalon_pixel_dma_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "pixel_buffer_avalon_pixel_dma_master_translator"
+Info: sram_controller_avalon_sram_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "sram_controller_avalon_sram_slave_translator"
+Info: pixel_buffer_avalon_pixel_dma_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "pixel_buffer_avalon_pixel_dma_master_agent"
+Info: sram_controller_avalon_sram_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "sram_controller_avalon_sram_slave_agent"
+Info: sram_controller_avalon_sram_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "sram_controller_avalon_sram_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_007: "mm_interconnect_0" instantiated altera_merlin_router "router_007"
+Info: router_009: "mm_interconnect_0" instantiated altera_merlin_router "router_009"
+Info: sram_controller_avalon_sram_slave_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "sram_controller_avalon_sram_slave_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_002"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/submodules/altera_merlin_arbitrator.sv
+Info: cmd_mux_004: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_004"
+Info: Reusing file E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/submodules/altera_merlin_arbitrator.sv
+Info: cmd_mux_006: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_006"
+Info: Reusing file E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_demux_004: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_004"
+Info: rsp_demux_006: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_006"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_002"
+Info: Reusing file E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/submodules/altera_merlin_arbitrator.sv
+Info: nios_data_master_to_sram_controller_avalon_sram_slave_cmd_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "nios_data_master_to_sram_controller_avalon_sram_slave_cmd_width_adapter"
+Info: Reusing file E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: TestePxBf: Done "TestePxBf" with 51 modules, 85 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=E:\LABIV\TesteMemoVGA\Quartus\TestePixelBuffer\TestePxBf\TestePxBf.spd --output-directory=E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=E:\LABIV\TesteMemoVGA\Quartus\TestePixelBuffer\TestePxBf\TestePxBf.spd --output-directory=E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	49 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\LABIV\TesteMemoVGA\Quartus\TestePixelBuffer\TestePxBf.qsys --block-symbol-file --output-directory=E:\LABIV\TesteMemoVGA\Quartus\TestePixelBuffer\TestePxBf --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading TestePixelBuffer/TestePxBf.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 20.1]
+Progress: Parameterizing module clk
+Progress: Adding dual_clock_buffer [altera_up_avalon_video_dual_clock_buffer 18.0]
+Progress: Parameterizing module dual_clock_buffer
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding nios [altera_nios2_gen2 20.1]
+Progress: Parameterizing module nios
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding pixel_buffer [altera_up_avalon_video_pixel_buffer_dma 18.0]
+Progress: Parameterizing module pixel_buffer
+Progress: Adding pll_vga [altera_up_avalon_video_pll 18.0]
+Progress: Parameterizing module pll_vga
+Progress: Adding rgb_resampler [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module rgb_resampler
+Progress: Adding sram [altera_external_memory_bfm 20.1]
+Progress: Parameterizing module sram
+Progress: Adding sram_controller [altera_up_avalon_sram 18.0]
+Progress: Parameterizing module sram_controller
+Progress: Adding timer_0 [altera_avalon_timer 20.1]
+Progress: Parameterizing module timer_0
+Progress: Adding vga_controller [altera_up_avalon_video_vga_controller 18.0]
+Progress: Parameterizing module vga_controller
+Progress: Adding video_scaler_0 [altera_up_avalon_video_scaler 18.0]
+Progress: Parameterizing module video_scaler_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: TestePxBf.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: TestePxBf.rgb_resampler: RGB Resampling: 16 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: TestePxBf.vga_controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Info: TestePxBf.video_scaler_0: Change in Resolution: 320 x 240 -> 160 x 120
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)

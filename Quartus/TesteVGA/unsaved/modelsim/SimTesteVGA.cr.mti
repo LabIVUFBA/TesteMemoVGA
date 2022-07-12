@@ -1,9 +1,9 @@
-E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v
+E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_synchronizer.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_synchronizer.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module unsaved
+-- Compiling module altera_reset_synchronizer
 
 Top level modules:
-	unsaved
+	altera_reset_synchronizer
 
 } {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -12,12 +12,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	altera_up_avalon_reset_from_locked_signal
 
-} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_synchronizer.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_synchronizer.v
+} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/unsaved.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module altera_reset_synchronizer
+-- Compiling module unsaved
 
 Top level modules:
-	altera_reset_synchronizer
+	unsaved
 
 } {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_altpll.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_altpll.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -26,13 +26,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	altera_up_altpll
 
-} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_pll_0.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_pll_0.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module unsaved_video_pll_0
-
-Top level modules:
-	unsaved_video_pll_0
-
 } {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_controller.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_reset_controller.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module altera_reset_controller
@@ -40,19 +33,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	altera_reset_controller
 
-} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_vga_controller_0.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_vga_controller_0.v
+} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_pll_0.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_pll_0.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module unsaved_video_vga_controller_0
+-- Compiling module unsaved_video_pll_0
 
 Top level modules:
-	unsaved_video_vga_controller_0
+	unsaved_video_pll_0
 
-} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_test_pattern_0.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_test_pattern_0.v
+} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_video_vga_timing.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_video_vga_timing.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module unsaved_video_test_pattern_0
+-- Compiling module altera_up_avalon_video_vga_timing
 
 Top level modules:
-	unsaved_video_test_pattern_0
+	altera_up_avalon_video_vga_timing
 
 } {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_rgb_resampler_0.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_rgb_resampler_0.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -61,11 +54,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	unsaved_video_rgb_resampler_0
 
-} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_video_vga_timing.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/altera_up_avalon_video_vga_timing.v
+} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_test_pattern_0.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_test_pattern_0.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module altera_up_avalon_video_vga_timing
+-- Compiling module unsaved_video_test_pattern_0
 
 Top level modules:
-	altera_up_avalon_video_vga_timing
+	unsaved_video_test_pattern_0
+
+} {} {}} E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_vga_controller_0.v {1 {vlog -work simtestvga -stats=none E:/LABIV/TesteMemoVGA/Quartus/TesteVGA/unsaved/simulation/submodules/unsaved_video_vga_controller_0.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module unsaved_video_vga_controller_0
+
+Top level modules:
+	unsaved_video_vga_controller_0
 
 } {} {}}

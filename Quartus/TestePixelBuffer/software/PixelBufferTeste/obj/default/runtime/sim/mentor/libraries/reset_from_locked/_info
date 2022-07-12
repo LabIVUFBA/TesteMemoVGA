@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/software/PixelBufferTeste/obj/default/runtime/sim/mentor
+valtera_up_avalon_reset_from_locked_signal
+!s110 1657643088
+!i10b 1
+!s100 l7cj`WQfb[k<`bj?eTPi03
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I:n_IPzeaTe`;W0^VWf@jZ2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657643027
+8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v
+FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v
+!i122 55
+L0 28 65
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657643088.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v|
+!s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_up_avalon_reset_from_locked_signal.v|-work|reset_from_locked|
+!i113 1
+o-work reset_from_locked
+tCvgOpt 0

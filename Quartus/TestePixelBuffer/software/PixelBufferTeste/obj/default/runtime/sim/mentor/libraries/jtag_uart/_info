@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/software/PixelBufferTeste/obj/default/runtime/sim/mentor
+vTestePxBf_jtag_uart
+Z1 !s110 1657643092
+!i10b 1
+!s100 Z7@SL>Hn5QIi0S3H4NnX22
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8<dU_U8JGb7a1];T@>]lk2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1657643016
+Z5 8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_jtag_uart.v
+Z6 FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_jtag_uart.v
+!i122 55
+L0 331 257
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1657643092.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_jtag_uart.v|
+Z9 !s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_jtag_uart.v|-work|jtag_uart|
+!i113 1
+Z10 o-work jtag_uart
+Z11 tCvgOpt 0
+n@teste@px@bf_jtag_uart
+vTestePxBf_jtag_uart_scfifo_r
+R1
+!i10b 1
+!s100 Y7=<Wg5a[57S@EgfzCY6L1
+R2
+I8jbZ1nXD[G2<P]5zMU;ED3
+R3
+R0
+R4
+R5
+R6
+!i122 55
+L0 243 78
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_jtag_uart.v|
+R9
+!i113 1
+R10
+R11
+n@teste@px@bf_jtag_uart_scfifo_r
+vTestePxBf_jtag_uart_scfifo_w
+R1
+!i10b 1
+!s100 :iY6AAieMYFo1DkUMO_S00
+R2
+Imz8U<H;YZQk]2@R]Xf3bI3
+R3
+R0
+R4
+R5
+R6
+!i122 55
+L0 78 76
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@teste@px@bf_jtag_uart_scfifo_w
+vTestePxBf_jtag_uart_sim_scfifo_r
+R1
+!i10b 1
+!s100 S_[3_`D?S?HW3ZZg;MgOg0
+R2
+IWV[iP2GX9Mo1S<@PeAMAZ2
+R3
+R0
+R4
+R5
+R6
+!i122 55
+L0 164 69
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@teste@px@bf_jtag_uart_sim_scfifo_r
+vTestePxBf_jtag_uart_sim_scfifo_w
+R1
+!i10b 1
+!s100 I@YU3SOVG7D22OF>BJ@nf2
+R2
+I2ULQ47[97K5:M`F1cim`A3
+R3
+R0
+R4
+R5
+R6
+!i122 55
+L0 21 47
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@teste@px@bf_jtag_uart_sim_scfifo_w

@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/software/PixelBufferTeste/obj/default/runtime/sim/mentor
+valtera_external_memory_bfm
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1657643092
+!i10b 1
+!s100 A@bJUYTX659552A7V=YWI3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IQd;K5o9MG3^gO`H;cMG9k3
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1657643018
+8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_external_memory_bfm.sv
+FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_external_memory_bfm.sv
+!i122 55
+L0 31 412
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657643091.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_external_memory_bfm.sv|
+!s90 -reportprogress|300|-sv|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_external_memory_bfm.sv|-L|altera_common_sv_packages|-work|sram|
+!i113 1
+o-sv -L altera_common_sv_packages -work sram
+tCvgOpt 0

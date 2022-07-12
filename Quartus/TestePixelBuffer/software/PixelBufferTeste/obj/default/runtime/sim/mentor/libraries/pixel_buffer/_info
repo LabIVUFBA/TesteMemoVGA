@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/software/PixelBufferTeste/obj/default/runtime/sim/mentor
+vTestePxBf_pixel_buffer
+!s110 1657643092
+!i10b 1
+!s100 Mil3Wobh]2o@B=o0FOHD12
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IVA867Cimn`F^<W>KBihQ00
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657643017
+8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_pixel_buffer.v
+FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_pixel_buffer.v
+!i122 55
+L0 29 364
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1657643092.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_pixel_buffer.v|
+!s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_pixel_buffer.v|-work|pixel_buffer|
+!i113 1
+o-work pixel_buffer
+tCvgOpt 0
+n@teste@px@bf_pixel_buffer

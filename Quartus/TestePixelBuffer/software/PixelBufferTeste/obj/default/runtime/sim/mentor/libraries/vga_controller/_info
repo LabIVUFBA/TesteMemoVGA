@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/software/PixelBufferTeste/obj/default/runtime/sim/mentor
+valtera_up_avalon_video_vga_timing
+Z1 !s110 1657643091
+!i10b 1
+!s100 2lAbcALc[PAg8P6UJ;XMC0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Il[hU@WLaKgE`VbES6clQf1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1657643018
+8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_up_avalon_video_vga_timing.v
+FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_up_avalon_video_vga_timing.v
+!i122 110
+L0 28 293
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1657643091.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_up_avalon_video_vga_timing.v|
+!s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/altera_up_avalon_video_vga_timing.v|-work|vga_controller|
+!i113 1
+Z7 o-work vga_controller
+Z8 tCvgOpt 0
+vTestePxBf_vga_controller
+R1
+!i10b 1
+!s100 3_Ln=AlLmRT7;[<1=ZXJ62
+R2
+ITd5o5V=UN=gzKKmONiK=C0
+R3
+R0
+R4
+8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_vga_controller.v
+FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_vga_controller.v
+!i122 111
+L0 28 259
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_vga_controller.v|
+!s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_vga_controller.v|-work|vga_controller|
+!i113 1
+R7
+R8
+n@teste@px@bf_vga_controller

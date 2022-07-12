@@ -1,0 +1,6 @@
+21:33:20 **** Clean-only build of configuration Nios II for project PixelBufferTeste_bsp ****
+wsl make clean 
+[BSP clean complete]
+
+21:33:21 Build Finished (took 339ms)
+

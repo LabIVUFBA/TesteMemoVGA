@@ -1,0 +1,611 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/software/PixelBufferTeste/obj/default/runtime/sim/mentor
+vTestePxBf_nios_cpu
+Z1 !s110 1657643089
+!i10b 1
+!s100 PVFM[MGW>E?0z_eWDXUOZ1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<>V8BlF4Vl93AMIKm>;SS2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1657643027
+Z5 8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu.v
+Z6 FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu.v
+!i122 275
+L0 2834 2824
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1657643088.000000
+Z9 !s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu.v|
+Z10 !s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu.v|-work|cpu|
+!i113 1
+Z11 o-work cpu
+Z12 tCvgOpt 0
+n@teste@px@bf_nios_cpu
+vTestePxBf_nios_cpu_debug_slave_sysclk
+R1
+!i10b 1
+!s100 QhZHo>M57e[e;CCU00deB1
+R2
+Ii2d_jhR;A?:=69ZgF^mE:3
+R3
+R0
+R4
+8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_sysclk.v
+FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_sysclk.v
+!i122 276
+L0 21 141
+R7
+r1
+!s85 0
+31
+Z13 !s108 1657643089.000000
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_debug_slave_sysclk
+vTestePxBf_nios_cpu_debug_slave_tck
+R1
+!i10b 1
+!s100 JiBe7l]][`mciIAVPiZcV1
+R2
+IaY<_JcW_lT3eP<W6TN64K3
+R3
+R0
+R4
+8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_tck.v
+FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_tck.v
+!i122 277
+L0 21 218
+R7
+r1
+!s85 0
+31
+R13
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_debug_slave_tck
+vTestePxBf_nios_cpu_debug_slave_wrapper
+R1
+!i10b 1
+!s100 6ZXgK]dmLA_c<=6;0iQLB1
+R2
+IUNcAhVUE>K`V9k2YlLc^:0
+R3
+R0
+R4
+8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_wrapper.v
+FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_wrapper.v
+!i122 278
+L0 21 201
+R7
+r1
+!s85 0
+31
+R13
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_debug_slave_wrapper
+vTestePxBf_nios_cpu_nios2_avalon_reg
+R1
+!i10b 1
+!s100 ;Q;ODZ9iW58:5B2<5X2fF2
+R2
+IYI8;X0Uia3UBn0Jb`:GaC0
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 2023 83
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_avalon_reg
+vTestePxBf_nios_cpu_nios2_oci
+R1
+!i10b 1
+!s100 j18IRlQn;82<hV]GK41ik0
+R2
+IKl^9CHNg8T^E52C5KQdcM3
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 2362 462
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci
+vTestePxBf_nios_cpu_nios2_oci_break
+R1
+!i10b 1
+!s100 0gCNeV_gFJ9a@0B<DHh4f0
+R2
+I6IoYPel?Ahe5WMbO9A:V10
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 295 283
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_break
+vTestePxBf_nios_cpu_nios2_oci_compute_input_tm_cnt
+R1
+!i10b 1
+!s100 RgXY@fKQUikQIhaC4m;ll0
+R2
+IX4b=4blb3:KLiHW^TC7Z21
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 1265 62
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_compute_input_tm_cnt
+vTestePxBf_nios_cpu_nios2_oci_dbrk
+R1
+!i10b 1
+!s100 65MQKWAiW2oEegR?8X7Nm2
+R2
+IWmWe6c6hWYXOMm_Zk[1>S3
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 795 177
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_dbrk
+vTestePxBf_nios_cpu_nios2_oci_debug
+R1
+!i10b 1
+!s100 EIMSB8`J0KR=29M1iD@;U1
+R2
+IgnaH]eT<z5L[P@SDI32Af2
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 153 132
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_debug
+vTestePxBf_nios_cpu_nios2_oci_dtrace
+R1
+!i10b 1
+!s100 TMRba`LG^AmU7<ha^S3I_2
+R2
+I15oNoG?i2WM@NIzYKYmGD0
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 1183 72
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_dtrace
+vTestePxBf_nios_cpu_nios2_oci_fifo
+R1
+!i10b 1
+!s100 ?FnIB40@mXQ2fbZJ^ZV:f0
+R2
+I=m30W>n^8mJi`Th??gnAB1
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 1427 476
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_fifo
+vTestePxBf_nios_cpu_nios2_oci_fifo_cnt_inc
+R1
+!i10b 1
+!s100 F^:M;UMjZDliE@Z807o8b3
+R2
+I]jNjJ__UUAJJiGej<1PjF3
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 1380 37
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_fifo_cnt_inc
+vTestePxBf_nios_cpu_nios2_oci_fifo_wrptr_inc
+R1
+!i10b 1
+!s100 no?@>VVIScYN4e;mD1nTb3
+R2
+IOL=3n<WI7@hc0[cW`]bnd3
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 1337 33
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_fifo_wrptr_inc
+vTestePxBf_nios_cpu_nios2_oci_im
+R1
+!i10b 1
+!s100 2aZ8@k=:27olm7jL>BGHZ3
+R2
+In<znX@_g_3HA>Cd`hjG^g3
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 1936 60
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_im
+vTestePxBf_nios_cpu_nios2_oci_itrace
+R1
+!i10b 1
+!s100 1V17^?XlVi]Cin8J:KZaK1
+R2
+I=fbbmP0SNL1VSjC_4Gm;k2
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 982 123
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_itrace
+vTestePxBf_nios_cpu_nios2_oci_pib
+R1
+!i10b 1
+!s100 n]>1Ghbo7];f8Sz_im]aN2
+R2
+I`llD;Pgcce0HE8^AWUJdZ3
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 1913 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_pib
+vTestePxBf_nios_cpu_nios2_oci_td_mode
+R1
+!i10b 1
+!s100 ERIe3z^8MHonC7f9ADY>e3
+R2
+INDLSoIU8Wmd?=;Wm6?i3d0
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 1115 58
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_td_mode
+vTestePxBf_nios_cpu_nios2_oci_xbrk
+R1
+!i10b 1
+!s100 V2EzzzF43mV:j5[W[SFMG3
+R2
+IO673eW8z`?3]zV7moIXQF2
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 588 197
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_oci_xbrk
+vTestePxBf_nios_cpu_nios2_ocimem
+R1
+!i10b 1
+!s100 92m2jE;7`V>;dYcgV>O@a0
+R2
+IZOoRA2_QXAU7`An<_QzC@2
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 2181 171
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_ocimem
+vTestePxBf_nios_cpu_nios2_performance_monitors
+R1
+!i10b 1
+!s100 Fc0`IoKj<GkDGNVL`R`Tf1
+R2
+IoW4QiaZe;8[KW3=BU[m4>2
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 2006 7
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_nios2_performance_monitors
+vTestePxBf_nios_cpu_ociram_sp_ram_module
+R1
+!i10b 1
+!s100 g^T_bP_iJ0]V9T^nW]?9F0
+R2
+I<6<e>b1nOjU6PbX^;G?0F0
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 2116 55
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_ociram_sp_ram_module
+vTestePxBf_nios_cpu_register_bank_a_module
+R1
+!i10b 1
+!s100 0>;T6F0ANYj[59L_5CKQC3
+R2
+I=Yg?aaFhMDfcgI?Y0jIAi1
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 21 56
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_register_bank_a_module
+vTestePxBf_nios_cpu_register_bank_b_module
+R1
+!i10b 1
+!s100 Xnhd;e4gXNST7V8kO2DRF0
+R2
+IJ_FB4aFGVhzMNjdCk<QX`1
+R3
+R0
+R4
+R5
+R6
+!i122 275
+L0 87 56
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_register_bank_b_module
+vTestePxBf_nios_cpu_test_bench
+R1
+!i10b 1
+!s100 kQN=[YIcICMhSl[W<=AGg0
+R2
+I^TAUdmB0dXLOLHFe]VOj02
+R3
+R0
+R4
+8E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_test_bench.v
+FE:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_test_bench.v
+!i122 279
+L0 21 635
+R7
+r1
+!s85 0
+31
+R13
+!s107 E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_test_bench.v|
+!s90 -reportprogress|300|E:/LABIV/TesteMemoVGA/Quartus/TestePixelBuffer/TestePxBf/testbench/TestePxBf_tb/simulation/submodules/TestePxBf_nios_cpu_test_bench.v|-work|cpu|
+!i113 1
+R11
+R12
+n@teste@px@bf_nios_cpu_test_bench

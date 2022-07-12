@@ -1,0 +1,37 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst TestePxBf.nios.reset_bridge -pg 1
+preplace inst TestePxBf.clk -pg 1 -lvl 1 -y 220
+preplace inst TestePxBf.jtag_uart -pg 1 -lvl 3 -y 450
+preplace inst TestePxBf.sram -pg 1 -lvl 2 -y 580
+preplace inst TestePxBf.pixel_buffer -pg 1 -lvl 3 -y 100
+preplace inst TestePxBf.sram_controller -pg 1 -lvl 3 -y 650
+preplace inst TestePxBf.onchip_memory -pg 1 -lvl 3 -y 550
+preplace inst TestePxBf -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst TestePxBf.timer_0 -pg 1 -lvl 3 -y 330
+preplace inst TestePxBf.dual_clock_buffer -pg 1 -lvl 9 -y 250
+preplace inst TestePxBf.pll_vga.video_pll -pg 1
+preplace inst TestePxBf.vga_controller -pg 1 -lvl 10 -y 350
+preplace inst TestePxBf.pll_vga.reset_from_locked -pg 1
+preplace inst TestePxBf.pll_vga -pg 1 -lvl 2 -y 250
+preplace inst TestePxBf.nios.clock_bridge -pg 1
+preplace inst TestePxBf.rgb_resampler -pg 1 -lvl 7 -y 150
+preplace inst TestePxBf.nios -pg 1 -lvl 2 -y 410
+preplace inst TestePxBf.video_scaler_0 -pg 1 -lvl 8 -y 230
+preplace inst TestePxBf.nios.cpu -pg 1
+preplace netloc POINT_TO_POINT<net_container>TestePxBf</net_container>(SLAVE)dual_clock_buffer.avalon_dc_buffer_sink,(MASTER)video_scaler_0.avalon_scaler_source) 1 8 1 N
+preplace netloc POINT_TO_POINT<net_container>TestePxBf</net_container>(SLAVE)rgb_resampler.avalon_rgb_sink,(MASTER)pixel_buffer.avalon_pixel_source) 1 3 4 NJ 200 NJ 200 NJ 200 2220
+preplace netloc EXPORT<net_container>TestePxBf</net_container>(SLAVE)sram_controller.external_interface,(SLAVE)TestePxBf.sram_controller_conduit) 1 0 3 NJ 700 NJ 700 NJ
+preplace netloc POINT_TO_POINT<net_container>TestePxBf</net_container>(MASTER)rgb_resampler.avalon_rgb_source,(SLAVE)video_scaler_0.avalon_scaler_sink) 1 7 1 2820
+preplace netloc INTERCONNECT<net_container>TestePxBf</net_container>(SLAVE)video_scaler_0.reset,(SLAVE)onchip_memory.reset1,(MASTER)pll_vga.reset_source,(SLAVE)dual_clock_buffer.reset_stream_in,(SLAVE)rgb_resampler.reset,(SLAVE)sram_controller.reset,(MASTER)nios.debug_reset_request,(SLAVE)nios.reset,(MASTER)clk.clk_reset,(SLAVE)timer_0.reset,(SLAVE)vga_controller.reset,(SLAVE)pixel_buffer.reset,(SLAVE)dual_clock_buffer.reset_stream_out,(SLAVE)pll_vga.ref_reset,(SLAVE)jtag_uart.reset) 1 1 9 360 350 820 90 NJ 160 NJ 160 NJ 160 2200 280 2800 340 3100 380 3470
+preplace netloc FAN_OUT<net_container>TestePxBf</net_container>(SLAVE)sram_controller.clk,(SLAVE)rgb_resampler.clk,(MASTER)clk.clk,(SLAVE)pll_vga.ref_clk,(SLAVE)sram.clk,(SLAVE)onchip_memory.clk1,(SLAVE)jtag_uart.clk,(SLAVE)timer_0.clk,(SLAVE)dual_clock_buffer.clock_stream_in,(SLAVE)pixel_buffer.clk,(SLAVE)nios.clk,(SLAVE)video_scaler_0.clk) 1 1 8 380 650 840 50 NJ 50 NJ 50 NJ 120 2240 260 2820 320 NJ
+preplace netloc EXPORT<net_container>TestePxBf</net_container>(SLAVE)clk.clk_in_reset,(SLAVE)TestePxBf.reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>TestePxBf</net_container>(SLAVE)timer_0.irq,(MASTER)nios.irq,(SLAVE)jtag_uart.irq) 1 2 1 860
+preplace netloc EXPORT<net_container>TestePxBf</net_container>(SLAVE)TestePxBf.clk,(SLAVE)clk.clk_in) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>TestePxBf</net_container>(SLAVE)vga_controller.avalon_vga_sink,(MASTER)dual_clock_buffer.avalon_dc_buffer_source) 1 9 1 3470
+preplace netloc EXPORT<net_container>TestePxBf</net_container>(SLAVE)vga_controller.external_interface,(SLAVE)TestePxBf.vga_conduit) 1 0 10 NJ 330 NJ 330 NJ 440 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ 400 NJ
+preplace netloc EXPORT<net_container>TestePxBf</net_container>(SLAVE)sram.conduit,(SLAVE)TestePxBf.sram_conduit) 1 0 2 NJ 610 NJ
+preplace netloc INTERCONNECT<net_container>TestePxBf</net_container>(SLAVE)rgb_resampler.avalon_rgb_slave,(SLAVE)jtag_uart.avalon_jtag_slave,(MASTER)pixel_buffer.avalon_pixel_dma_master,(MASTER)nios.data_master,(SLAVE)sram_controller.avalon_sram_slave,(MASTER)nios.instruction_master,(SLAVE)pixel_buffer.avalon_control_slave,(SLAVE)nios.debug_mem_slave,(SLAVE)timer_0.s1,(SLAVE)onchip_memory.s1) 1 1 6 400 370 780 30 1310 180 NJ 180 NJ 180 N
+preplace netloc FAN_OUT<net_container>TestePxBf</net_container>(SLAVE)vga_controller.clk,(SLAVE)dual_clock_buffer.clock_stream_out,(MASTER)pll_vga.vga_clk) 1 2 8 NJ 70 NJ 70 NJ 70 NJ 40 NJ 40 NJ 140 3100 240 3490
+levelinfo -pg 1 0 150 3700
+levelinfo -hier TestePxBf 160 190 520 960 1400 1850 2180 2550 2890 3190 3540 3690
